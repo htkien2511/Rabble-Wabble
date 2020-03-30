@@ -10,6 +10,8 @@
 		7B3CDF3A2430A093006FB667 /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CDF392430A093006FB667 /* QuestionStrategy.swift */; };
 		7B3CDF3C2430A267006FB667 /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CDF3B2430A267006FB667 /* SequentialQuestionStrategy.swift */; };
 		7B3CDF3E2430A453006FB667 /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CDF3D2430A453006FB667 /* RandomQuestionStrategy.swift */; };
+		7B3CDF402430B4E9006FB667 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CDF3F2430B4E9006FB667 /* AppSettings.swift */; };
+		7B3CDF422431FF33006FB667 /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CDF412431FF33006FB667 /* AppSettingsViewController.swift */; };
 		7BEAB114242F3AEC00165B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAB113242F3AEC00165B32 /* AppDelegate.swift */; };
 		7BEAB116242F3AEC00165B32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAB115242F3AEC00165B32 /* SceneDelegate.swift */; };
 		7BEAB118242F3AEC00165B32 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAB117242F3AEC00165B32 /* QuestionViewController.swift */; };
@@ -28,6 +30,8 @@
 		7B3CDF392430A093006FB667 /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
 		7B3CDF3B2430A267006FB667 /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
 		7B3CDF3D2430A453006FB667 /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
+		7B3CDF3F2430B4E9006FB667 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		7B3CDF412431FF33006FB667 /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
 		7BEAB110242F3AEC00165B32 /* Rabble Wabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rabble Wabble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEAB113242F3AEC00165B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BEAB115242F3AEC00165B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				7BEAB12C242F412900165B32 /* Question.swift */,
 				7BEAB12E242F41CC00165B32 /* QuestionGroup.swift */,
 				7BEAB130242F424700165B32 /* QuestionGroupData.swift */,
+				7B3CDF3F2430B4E9006FB667 /* AppSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			children = (
 				7BEAB117242F3AEC00165B32 /* QuestionViewController.swift */,
 				7BEAB138242F4F1700165B32 /* SelectQuestionGroupViewController.swift */,
+				7B3CDF412431FF33006FB667 /* AppSettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3CDF402430B4E9006FB667 /* AppSettings.swift in Sources */,
 				7BEAB118242F3AEC00165B32 /* QuestionViewController.swift in Sources */,
 				7BEAB12D242F412900165B32 /* Question.swift in Sources */,
 				7BEAB114242F3AEC00165B32 /* AppDelegate.swift in Sources */,
@@ -223,6 +230,7 @@
 				7B3CDF3E2430A453006FB667 /* RandomQuestionStrategy.swift in Sources */,
 				7B3CDF3A2430A093006FB667 /* QuestionStrategy.swift in Sources */,
 				7BEAB131242F424700165B32 /* QuestionGroupData.swift in Sources */,
+				7B3CDF422431FF33006FB667 /* AppSettingsViewController.swift in Sources */,
 				7BEAB12F242F41CC00165B32 /* QuestionGroup.swift in Sources */,
 				7BEAB116242F3AEC00165B32 /* SceneDelegate.swift in Sources */,
 			);
