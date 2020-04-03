@@ -31,9 +31,9 @@ public class AppSettings {
     
     // MARK: - Instance Methods
     public func questionStrategy(
-        for questionGroup: QuestionGroup) -> QuestionStrategy {
+        for questionGroupCaretaker: QuestionGroupCaretaker) -> QuestionStrategy {
         return questionStrategyType.questionStrategy(
-            for: questionGroup)
+            for: questionGroupCaretaker)
     }
     
     // MARK: - Object Lifecycle
@@ -57,14 +57,14 @@ public enum QuestionStrategyType: Int, CaseIterable {
     }
     
     public func questionStrategy(
-        for questionGroup: QuestionGroup) -> QuestionStrategy {
+        for questionGroupCaretaker: QuestionGroupCaretaker) -> QuestionStrategy {
         switch self {
         case .random:
             return RandomQuestionStrategy(
-                questionGroup: questionGroup)
+                questionGroupCaretaker: questionGroupCaretaker)
         case .sequential:
             return SequentialQuestionStrategy(
-                questionGroup: questionGroup)
+                questionGroupCaretaker: questionGroupCaretaker)
         }
     }
     
